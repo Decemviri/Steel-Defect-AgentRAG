@@ -1,0 +1,10 @@
+project_name: "Steel-Defect-AgentRAG"
+chat_model_name: qwen3-max
+embedding_model_name: text-embedding-v4
+
+# LangSmith 全链路可观测性与追踪配置
+langsmith:
+  tracing: true
+  project: "Steel-Defect-AgentRAG"
+  endpoint: "https://api.smith.langchain.com"
+  # api_key: "ls__your_langsmith_api_key"  # 支持环境变量 LANGCHAIN_API_KEY

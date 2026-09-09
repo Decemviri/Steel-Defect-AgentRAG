@@ -1,0 +1,6 @@
+# 混合检索与重排序超参数配置
+dense_k: 6
+sparse_k: 6
+final_k: 3
+rrf_k: 60
+reranker_model: "BAAI/bge-reranker-large"
